@@ -1,0 +1,302 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.full_website
+{
+    height: 1000px;
+    width: 100%;
+}
+.background
+{
+    background-image: url(images/background3.jpg);
+    background-size: cover;
+    height: 660px;
+    opacity: .9;
+}
+
+.first_section
+{
+    height: 100px;
+    margin-bottom: 150px;
+}
+.logo
+{
+    width: 40%;
+    float: left;
+    color: blanchedalmond;
+    margin: 20px 0px;
+    padding: 5px 0px;
+    text-align: center;
+    border: 3px solid aqua;
+    border-radius: 25px;
+    
+}
+.logo h1
+{
+    margin: 0 auto;
+}
+.menu
+{
+    width: 40%;
+    float: right;
+    padding: 30px 0px;
+    margin-right: 2%;
+    
+}
+.menu ul
+{
+    text-align: end;
+    list-style-type: none;
+    
+}
+.menu ul li
+{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid aqua;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li:hover
+{
+    background-color: aqua;
+}
+.menu ul li a:hover
+{
+    color: chocolate;
+}
+/* -------------------  */
+
+.content
+{
+    margin: 0 auto;
+    margin-inline: 20%;
+    font-size: x-large;
+}
+.content h4
+{
+    text-align: left;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+.content h1
+{
+    text-align: left;
+    color: blanchedalmond;
+    margin-top: 15px;
+}
+.content h3
+{
+    text-align: left;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+/* ---------------  */
+
+.section2
+{
+    background-size: cover;
+    height: auto;
+    opacity: .7;
+    padding-bottom: 20px;
+    margin-bottom: 150px;
+}
+
+.about_me
+{
+    margin: 0 auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.about_me h1
+{
+    color: #c49248;
+    margin: 0 auto;
+    
+    border: 2px dashed aqua;
+    border-radius: 25px;
+    margin-top: 25px;
+    width: fit-content;
+    padding: 10px 30px;
+}
+.leftside_content
+{
+    margin-top: 40px;
+    width: 30%;
+    margin-left: 3%;
+    float: left;
+}
+.leftside_content h1
+{
+    margin-bottom: 15px;
+    font-size: xx-large;
+}
+.leftside_content p
+{
+    text-align: start;
+}
+.leftside_content ul
+{
+    list-style-type: none;
+}
+.far
+{
+    margin-right: 7px;
+    font-size: 20px;
+}
+.fas
+{
+    margin-right: 7px;
+    font-size: 20px;
+}
+.leftside_content::after .center_content
+{
+    width: 20%;
+    float: center;
+    
+}
+.center_content img
+{
+    width: 250px;
+    height: 250px;
+    margin: 55px 70px;
+    background-color: #ccb9b993;
+    padding: 10px;
+    border-radius: 50%;
+}
+.rightside_content
+{
+    margin-top: 40px;
+    width: 30%;
+    margin-right: 3%;
+    float: right;
+    position: relative;
+    top: -390px;
+}
+.rightside_content h1
+{
+    margin-bottom: 15px;
+    font-size: xx-large;
+}
+.rightside_content ul
+{
+    list-style: none;
+}
+.rightside_content ul li i
+{
+    color: black;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+}
+.rightside_content ul li i:last-child
+{
+    margin-right: 5px
+}
+.icons
+{
+    margin-left: 25%;
+}
+.icons i
+{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+.icons i:hover
+{
+    background: black;
+    color: white;
+}
+/* ----------------  */
+
+.section3
+{
+    height: 570px;
+    background-image: url(images/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: .6;
+}
+.contact_me
+{
+    margin: 0 auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.contact_me h1
+{
+    color: #c49248;
+    margin: 0 auto;
+    border: 2px dashed aqua;
+    border-radius: 25px;
+    margin-top: 25px;
+    width: fit-content;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.form
+{
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 30%;
+    border:  1px solid aqua;
+    border-radius: 30px;
+    box-shadow: 8px 8px 16px;
+    padding: 50px;
+}
+.name
+{
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 2px 4px;
+    margin-bottom: 20px;
+}
+.email
+{
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 2px 4px;
+    margin-bottom: 20px;
+}
+.comment
+{
+    width: 60%;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 2px 4px;
+}
+.submit
+{
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px 4px;
+    margin-top: 25px;
+}
+/* --------------  */
+
+.copyright
+{
+    text-align: center;
+    color: white;
+    background-color: grey;
+}
