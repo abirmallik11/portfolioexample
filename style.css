@@ -120,7 +120,7 @@
 {
     color: #c49248;
     margin: 0 auto;
-    
+    text-transform: uppercase;
     border: 2px dashed aqua;
     border-radius: 25px;
     margin-top: 25px;
